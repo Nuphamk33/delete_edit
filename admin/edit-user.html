@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sửa thông tin người dùng</title>
+ <!-- Main CSS-->
+ <link rel="stylesheet" type="text/css" href="css/admin.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+ <!-- or -->
+ <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+ <!-- Font-icon css-->
+ <link rel="stylesheet" type="text/css"
+   href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+
+</head>
+
+<body>
+      <div class="modal-body">
+        <div class="row">
+          <div class="form-group  col-md-12">
+            <span class="thong-tin-thanh-toan">
+              <h5>Chỉnh sửa thông tin</h5>
+            </span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label class="control-label">ID</label>
+            <input class="form-control" type="text" required value="N01" disabled>
+          </div>
+          <div class="form-group col-md-6">
+            <label class="control-label">Họ và tên</label>
+            <input class="form-control" type="text" required value="Hồ Thị Thanh Ngân">
+          </div>
+          <div class="form-group  col-md-6">
+            <label class="control-label">Số điện thoại</label>
+            <input class="form-control" type="number" required value="09267312388">
+          </div>
+          <div class="form-group col-md-6">
+            <label class="control-label">Địa chỉ email</label>
+            <input class="form-control" type="text" required value="ngan12@gmail.com">
+          </div>
+          <div class="form-group col-md-6">
+            <label class="control-label">Username</label>
+            <input class="form-control" type="text"required value="ngan1299">
+          </div>
+          <div class="form-group  col-md-6">
+            <label for="exampleSelect1" class="control-label">Role</label>
+            <select class="form-control" id="exampleSelect1">
+              <option>Reader</option>
+              <option>Admin</option>
+            </select>
+          </div>
+        </div>
+        <BR>
+        <button class="btn btn-save" type="button">Lưu lại</button>
+        <a class="btn btn-cancel" data-dismiss="modal" href="table-data-user.html">Hủy bỏ</a>
+        <BR>
+      </div>
+</body>
+</html>
